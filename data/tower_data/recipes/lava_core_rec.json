@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#L#",
+        "LOL",
+        "#L#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:fire_charge"
+        },
+        "L": {
+            "item": "minecraft:lava_bucket"
+        },
+        "O": {
+            "item": "minecraft:obsidian"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

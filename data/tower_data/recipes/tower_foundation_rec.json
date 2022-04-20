@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      " # ",
+      "XOX"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:iron_trapdoor"
+      },
+      "X": {
+        "item": "minecraft:iron_block"
+      },
+      "O": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "result": {
+      "item": "minecraft:knowledge_book"
+    }
+  }

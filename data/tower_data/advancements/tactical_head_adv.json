@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "unlocket": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "tower_data:tactical_head_rec"
+            }
+        }
+    },
+    "rewards": {
+        "function": "tower_data:custom_items/tactical_head_rew"
+    }
+}

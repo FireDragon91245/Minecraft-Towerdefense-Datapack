@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Tactical?",
+            "color": "white"
+        },
+        "description": {
+            "text": "Build a tactical rocket tower.",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:tnt",
+            "nbt": "{CustomModelData:300}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 5
+    },
+    "parent": "tower_data:start_to_defend_adv"
+}

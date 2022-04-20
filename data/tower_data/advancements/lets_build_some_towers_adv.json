@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "Lets build some towers!",
+            "color": "white"
+        },
+        "description": {
+            "text": "Get a tower workbench.",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:magma_cube_spawn_egg",
+            "nbt": "{CustomModelData:400}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "unlocket": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "tower_data:tower_workbench_rec"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 5
+    },
+    "parent": "tower_data:root_adv"
+}
