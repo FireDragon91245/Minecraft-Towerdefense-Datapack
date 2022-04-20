@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "unlocket": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "tower_data:lava_core_rec"
+            }
+        }
+    },
+    "rewards": {
+        "function": "tower_data:custom_items/lava_core_rew"
+    }
+}

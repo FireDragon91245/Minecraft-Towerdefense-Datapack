@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Start to defend",
+            "color": "white"
+        },
+        "description": {
+            "text": "Craft a component for a defense tower.",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:anvil",
+            "nbt": "{CustomModelData:200}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 5
+    },
+    "parent": "tower_data:root_adv"
+}

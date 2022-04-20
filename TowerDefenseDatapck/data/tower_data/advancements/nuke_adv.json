@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "NUKE!",
+            "color": "white"
+        },
+        "description": {
+            "text": "Fully upgrade a tactical rocket tower.",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:tnt",
+            "nbt": "{Enchantments:[{}],CustomModelData:300}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "tower_data:tactical_adv"
+}

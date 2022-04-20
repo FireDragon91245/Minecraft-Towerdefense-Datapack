@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "unlocket": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "tower_data:aiming_system_rec"
+            }
+        }
+    },
+    "rewards": {
+        "function": "tower_data:custom_items/aiming_system_rew"
+    }
+}

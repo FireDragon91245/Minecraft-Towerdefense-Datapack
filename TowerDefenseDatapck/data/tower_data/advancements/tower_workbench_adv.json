@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "unlocket": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "tower_data:tower_workbench_rec"
+            }
+        }
+    },
+    "rewards": {
+        "function": "tower_data:tower_workbench/tower_workbench_rew"
+    }
+}

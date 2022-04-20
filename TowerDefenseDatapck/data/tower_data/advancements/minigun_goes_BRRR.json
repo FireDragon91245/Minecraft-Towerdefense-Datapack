@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Minigun goes BRRRRRRRRRRR",
+            "color": "white"
+        },
+        "description": {
+            "text": "Fully upgrade a Minigun tower.",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:iron_horse_armor",
+            "nbt": "{Enchantments:[{}],CustomModelData:500}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "tower_data:minigun_goes_brrr_adv"
+}
