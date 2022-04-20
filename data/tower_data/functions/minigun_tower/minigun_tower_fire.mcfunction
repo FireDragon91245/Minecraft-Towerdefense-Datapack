@@ -1,6 +1,0 @@
-execute as @s at @s run tp @s ~ ~ ~ facing entity @e[limit=1,sort=nearest,type=!#arrows,type=!player,type=!end_crystal,type=!item,tag=,distance=0..64]
-execute as @s at @s if entity @e[type=!#arrows,type=!player,type=!end_crystal,type=!item,tag=,distance=0..64] run summon minecraft:armor_stand ^ ^ ^-1 {Tags:["bullet"],NoGravity:1b,Invisible:1b}
-execute as @s at @s positioned ^ ^-1 ^-1 run execute as @e[type=minecraft:armor_stand,tag=bullet,distance=0..2,sort=nearest] at @s run tp @s ~ ~ ~ facing entity @e[type=armor_stand,sort=nearest,limit=1,tag=minigun_tower_turret]
-execute as @s at @s positioned ^ ^-1 ^-1 run execute as @e[type=minecraft:armor_stand,tag=bullet,distance=0..2,sort=nearest] at @s run data merge entity @s {Tags:["fired_bullet"]}
-execute as @s at @s positioned ^ ^-1 ^-1 run execute as @e[type=minecraft:armor_stand,tag=fired_bullet,distance=0..2] at @e[type=armor_stand,limit=1,sort=nearest,tag=minigun_tower_turret] run playsound minecraft:tower.minigun.shot master @a ~ ~ ~ 1 1
-execute as @s at @s positioned ~ ~-1 ~ if block ~ ~ ~ air run function tower_data:minigun_tower/minigun_tower_delete
