@@ -5,7 +5,7 @@ This is the functional / command side of thinks for looks you need to also downl
 Also be aware of the LICENSE.
 
 # Compatibilety
-- Compatible Minecraft 1.16.x.
+- Compatible with Minecraft 1.16.x.
 - Not testet but should also work 1.16 and newer.
 - Incompatible with any modification that changes vanilla commands, for example essentaials plugin on servers.
 - Compatible with Forge and Optifine.
