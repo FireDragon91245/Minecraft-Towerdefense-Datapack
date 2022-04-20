@@ -11,3 +11,6 @@ Also be aware of the LICENSE.
 - Compatible with Forge and Optifine.
 
 - Other incompatibiletys/ compatibiletys not testet.
+
+# Important
+The version of the datapack and the recourcepack MUST be the same to work properly.
