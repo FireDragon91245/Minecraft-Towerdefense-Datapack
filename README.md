@@ -1,4 +1,6 @@
-# Minecraft-Towerdefense-Datapack
+# Minecraft-Towerdefense-Datapack 1.20.x
+
+[Take a look at the Wiki](https://github.com/FireDragon91245/Minecraft-Towerdefense-Datapack/wiki)
 
 This is a datapack for Minecraft, it adds some functional defense towers to the game.
 This is the functional / command side of thinks for looks you need to also download the recourcepack from < https://github.com/FireDragon91245/Minecraft-Towerdefense-Recourcepack >.
