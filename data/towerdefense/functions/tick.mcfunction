@@ -1,0 +1,1 @@
+execute as @a[scores={td_permission=1..}] run function towerdefense:tick_admin

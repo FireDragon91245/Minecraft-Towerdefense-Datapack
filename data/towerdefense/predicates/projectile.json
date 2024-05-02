@@ -1,0 +1,8 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "nbt": "{Tags:[\"td\",\"td_projectile\"]}",
+        "type": "#towerdefense:projectile"
+    }
+}

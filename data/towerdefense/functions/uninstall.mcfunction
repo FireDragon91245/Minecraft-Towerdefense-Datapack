@@ -1,0 +1,2 @@
+function towerdefense:scoreboards/uninstall
+function towerdefense:storages/uninstall

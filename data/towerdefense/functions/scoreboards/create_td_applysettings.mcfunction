@@ -1,0 +1,1 @@
+return run scoreboard objectives add td_applysettings trigger "TD Apply Settings"

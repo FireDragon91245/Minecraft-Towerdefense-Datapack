@@ -1,0 +1,2 @@
+execute unless loaded 0 0 0 run forceload add 0 0
+execute unless entity @e[type=armor_stand,tag=td_installed] run summon armor_stand 0 0 0 {NoGravity:1b,Silent:1b,Invulnerable:1b,HasVisualFire:0b,Small:1b,Invisible:1b,NoBasePlate:1b,Tags:["td_installed"]}

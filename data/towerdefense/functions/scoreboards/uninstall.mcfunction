@@ -1,0 +1,7 @@
+scoreboard objectives remove td_applysettings
+scoreboard objectives remove td_clearall
+scoreboard objectives remove td_clearprojectile
+scoreboard objectives remove td_permission
+scoreboard objectives remove td_reinstall
+scoreboard objectives remove td_settingsbook
+scoreboard objectives remove td_uninstall

@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"TD","color":"dark_green"},{"text":"][","color":"dark_gray"},{"text":"ERROR","color":"dark_red"},{"text":"]","color":"dark_gray"},{"text":" The Following storages do alredy exist and are needed for the datapack:","color":"green"},{"nbt":"error_storage_exists","storage":"td:tmp_install","interpret":true}]

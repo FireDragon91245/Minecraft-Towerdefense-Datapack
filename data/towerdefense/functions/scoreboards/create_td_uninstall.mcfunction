@@ -1,0 +1,1 @@
+return run scoreboard objectives add td_uninstall trigger "TD Uninstall"

@@ -1,0 +1,1 @@
+tellraw @a [{"nbt":"error_scoreboard_exists","storage":"td:tmp_install","interpret":true}]

@@ -1,0 +1,2 @@
+$data modify storage td:tmp_install error_storage_exists append value {"text": " $(storage_name)", "color": "dark_red"}
+data modify storage td:tmp_install error_storage_exists append value {"text": ";", "color": "white"}
