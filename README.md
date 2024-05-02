@@ -1,4 +1,6 @@
-# Minecraft-Towerdefense-Datapack 1.20.x
+# Tis is the 1.16.x - 1.20.4 Version [DISCONTAINUED]
+## Switch to branch 1.20.5+ to see current rework
+# Minecraft-Towerdefense-Datapack
 
 [Take a look at the Wiki](https://github.com/FireDragon91245/Minecraft-Towerdefense-Datapack/wiki)
 
