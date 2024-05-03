@@ -1,0 +1,1 @@
+return run scoreboard objectives add td_clearprojectiles_last_confirm_message_seen dummy "TD Clear Projectiles Last Confirm Message Seen"

@@ -1,0 +1,2 @@
+function towerdefense:uninstall
+function towerdefense:load_once

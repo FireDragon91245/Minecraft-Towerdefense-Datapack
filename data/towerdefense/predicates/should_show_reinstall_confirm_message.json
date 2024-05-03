@@ -1,0 +1,36 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "td_reinstall": {
+                    "min": {
+                        "type": "minecraft:score",
+                        "target": "this",
+                        "score": "td_reinstall_last_confirm_message_seen"
+                    },
+                    "max": {
+                        "type": "minecraft:score",
+                        "target": {
+                            "type": "minecraft:fixed",
+                            "name": "reinstall_confirmation_threshold"
+                        },
+                        "score": "td_reinstall"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "td_reinstall": {
+                    "min": 1,
+                    "max": 2147483647
+                }
+            }
+        }
+    ]
+}

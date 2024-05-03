@@ -1,5 +1,5 @@
 scoreboard players set reinstall_confirmation_threshold td_reinstall 2
-scoreboard players set clearprojectile_confirmation_threshold td_clearprojectile 1
+scoreboard players set clearprojectiles_confirmation_threshold td_clearprojectiles 2
 scoreboard players set uninstall_confirmation_threshold td_uninstall 2
 
 data modify storage td:settings reinstall_confirmation_threshold set value 2

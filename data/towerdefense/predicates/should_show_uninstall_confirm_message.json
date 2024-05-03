@@ -1,0 +1,36 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "td_uninstall": {
+                    "min": {
+                        "type": "minecraft:score",
+                        "target": "this",
+                        "score": "td_uninstall_last_confirm_message_seen"
+                    },
+                    "max": {
+                        "type": "minecraft:score",
+                        "target": {
+                            "type": "minecraft:fixed",
+                            "name": "uninstall_confirmation_threshold"
+                        },
+                        "score": "td_uninstall"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "td_uninstall": {
+                    "min": 1,
+                    "max": 2147483647
+                }
+            }
+        }
+    ]
+}

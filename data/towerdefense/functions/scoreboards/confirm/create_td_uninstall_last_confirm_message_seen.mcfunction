@@ -1,0 +1,1 @@
+return run scoreboard objectives add td_uninstall_last_confirm_message_seen dummy "TD Uninstall Last Confirm Message Seen"

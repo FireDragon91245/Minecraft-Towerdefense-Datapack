@@ -1,0 +1,1 @@
+return run scoreboard objectives add td_clearall_last_confirm_message_seen dummy "TD ClearAll Last Confirm Message Seen"

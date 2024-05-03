@@ -1,7 +1,14 @@
 scoreboard objectives remove td_applysettings
 scoreboard objectives remove td_clearall
-scoreboard objectives remove td_clearprojectile
+scoreboard objectives remove td_clearprojectiles
 scoreboard objectives remove td_permission
 scoreboard objectives remove td_reinstall
 scoreboard objectives remove td_settingsbook
 scoreboard objectives remove td_uninstall
+
+scoreboard objectives remove td_applysettings_last_confirm_message_seen
+scoreboard objectives remove td_clearall_last_confirm_message_seen
+scoreboard objectives remove td_clearprojectiles_last_confirm_message_seen
+scoreboard objectives remove td_reinstall_last_confirm_message_seen
+scoreboard objectives remove td_settingsbook_last_confirm_message_seen
+scoreboard objectives remove td_uninstall_last_confirm_message_seen

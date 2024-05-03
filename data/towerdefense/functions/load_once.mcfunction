@@ -14,8 +14,16 @@ execute unless function towerdefense:scoreboards/create_td_uninstall run functio
 execute unless function towerdefense:scoreboards/create_td_reinstall run function towerdefense:scoreboards/error_scoreboard_exists {scoreboard_name: "td_reinstall"}
 execute unless function towerdefense:scoreboards/create_td_clearprojectiles run function towerdefense:scoreboards/error_scoreboard_exists {scoreboard_name: "td_clearprojectiles"}
 execute unless function towerdefense:scoreboards/create_td_clearall run function towerdefense:scoreboards/error_scoreboard_exists {scoreboard_name: "td_clearall"}
-execute unless function towerdefense:scoreboards/create_td_applysettings run function towerdefense:scoreboards/error_scoreboard_exists {scoreboard_name: "td_applysettings"}
+execute unless function towerdefense:scoreboards/trigger/create_td_applysettings run function towerdefense:scoreboards/error_scoreboard_exists {scoreboard_name: "td_applysettings"}
 execute unless function towerdefense:scoreboards/create_td_settingsbook run function towerdefense:scoreboards/error_scoreboard_exists {scoreboard_name: "td_settingsbook"}
+
+# Create Trigger Scoreboard Confirmation Message Count
+execute unless function towerdefense:scoreboards/confirm/create_td_uninstall_last_confirm_message_seen run function towerdefense:scoreboards/error_scoreboard_exists {scoreboard_name: "td_uninstall_last_confirm_message_seen"}
+execute unless function towerdefense:scoreboards/confirm/create_td_reinstall_last_confirm_message_seen run function towerdefense:scoreboards/error_scoreboard_exists {scoreboard_name: "td_reinstall_last_confirm_message_seen"}
+execute unless function towerdefense:scoreboards/confirm/create_td_clearprojectiles_last_confirm_message_seen run function towerdefense:scoreboards/error_scoreboard_exists {scoreboard_name: "td_clearprojectiles_last_confirm_message_seen"}
+execute unless function towerdefense:scoreboards/confirm/create_td_clearall_last_confirm_message_seen run function towerdefense:scoreboards/error_scoreboard_exists {scoreboard_name: "td_clearall_last_confirm_message_seen"}
+execute unless function towerdefense:scoreboards/confirm/create_td_applysettings_last_confirm_message_seen run function towerdefense:scoreboards/error_scoreboard_exists {scoreboard_name: "td_applysettings_last_confirm_message_seen"}
+execute unless function towerdefense:scoreboards/confirm/create_td_settingsbook_last_confirm_message_seen run function towerdefense:scoreboards/error_scoreboard_exists {scoreboard_name: "td_settingsbook_last_confirm_message_seen"}
 
 # Test for Scoreboard Creation errors, cleanup and exit on error
 execute if data storage td:tmp_install error_scoreboard_exists run function towerdefense:mark_not_installed

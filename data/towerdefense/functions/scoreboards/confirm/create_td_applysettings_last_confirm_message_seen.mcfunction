@@ -1,0 +1,1 @@
+return run scoreboard objectives add td_applysettings_last_confirm_message_seen dummy "TD Applysettings Last Confirm Message Seen"

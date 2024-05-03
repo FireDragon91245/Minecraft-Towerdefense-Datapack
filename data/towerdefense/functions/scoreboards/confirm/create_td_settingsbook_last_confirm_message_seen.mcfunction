@@ -1,0 +1,1 @@
+return run scoreboard objectives add td_settingsbook_last_confirm_message_seen dummy "TD Settingsbook Last Confirm Message Seen"
