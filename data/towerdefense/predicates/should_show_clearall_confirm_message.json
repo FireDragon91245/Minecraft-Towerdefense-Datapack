@@ -1,0 +1,36 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "td_clearall": {
+                    "min": {
+                        "type": "minecraft:score",
+                        "target": "this",
+                        "score": "td_clearall_last_confirm_message_seen"
+                    },
+                    "max": {
+                        "type": "minecraft:score",
+                        "target": {
+                            "type": "minecraft:fixed",
+                            "name": "clearall_confirmation_threshold"
+                        },
+                        "score": "td_clearall"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "td_clearall": {
+                    "min": 1,
+                    "max": 2147483647
+                }
+            }
+        }
+    ]
+}

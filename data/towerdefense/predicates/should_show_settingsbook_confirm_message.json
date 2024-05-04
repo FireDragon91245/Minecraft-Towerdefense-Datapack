@@ -1,0 +1,36 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "td_settingsbook": {
+                    "min": {
+                        "type": "minecraft:score",
+                        "target": "this",
+                        "score": "td_settingsbook_last_confirm_message_seen"
+                    },
+                    "max": {
+                        "type": "minecraft:score",
+                        "target": {
+                            "type": "minecraft:fixed",
+                            "name": "settingsbook_confirmation_threshold"
+                        },
+                        "score": "td_settingsbook"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "td_settingsbook": {
+                    "min": 1,
+                    "max": 2147483647
+                }
+            }
+        }
+    ]
+}
