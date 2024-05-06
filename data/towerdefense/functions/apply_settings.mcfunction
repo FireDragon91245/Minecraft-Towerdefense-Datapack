@@ -1,1 +1,6 @@
+execute store result score uninstall_confirmation_threshold td_uninstall run data get storage td:settings uninstall_confirmation_threshold 1
 execute store result score reinstall_confirmation_threshold td_reinstall run data get storage td:settings reinstall_confirmation_threshold 1
+execute store result score clearprojectiles_confirmation_threshold td_clearprojectiles run data get storage td:settings clearprojectiles_confirmation_threshold 1
+execute store result score clearall_confirmation_threshold td_clearall run data get storage td:settings clearall_confirmation_threshold 1
+execute store result score applysettings_confirmation_threshold td_applysettings run data get storage td:settings applysettings_confirmation_threshold 1
+execute store result score settingsbook_confirmation_threshold td_settingsbook run data get storage td:settings settingsbook_confirmation_threshold 1
